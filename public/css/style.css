@@ -1,0 +1,238 @@
+@import url(//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+@font-face {
+  font-family: "SoDo Sans SemiBold";
+  src: url("//db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.eot");
+  src: url("//db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.svg#SoDo Sans SemiBold") format("svg");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-size: 14px;
+  font-family: "SoDo Sans SemiBold", Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+nav,
+.nav-left,
+.nav-left ul,
+.nav-right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+nav,
+.nav-left,
+.nav-right {
+  height: 100px;
+}
+
+nav {
+  padding: 0 20px;
+  justify-content: space-between;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.nav-left {
+  margin: 0 10px;
+}
+.nav-left li {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 20px;
+}
+.nav-left a:hover {
+  color: #006341;
+}
+
+.nav-right {
+  align-content: center;
+}
+
+.logo-sb svg {
+  width: 50px;
+  height: 50px;
+}
+
+.find-me {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 7px 20px;
+}
+.find-me:hover {
+  color: #006341;
+}
+
+.nav-btn {
+  padding: 8px 20px 6px 20px;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin: 0 10px;
+}
+.nav-btn:hover {
+  color: #006341;
+  border-color: #006341;
+}
+
+.btn-nav-black {
+  background: black;
+  color: white;
+}
+.btn-nav-black:hover {
+  background: #006341;
+  color: white;
+}
+
+main {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.contenair {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 30px auto;
+  max-width: 1440px;
+  justify-content: center;
+}
+
+.img-rewards,
+.img-rewards img,
+.txt-rewards {
+  width: 720px;
+  height: 210px;
+}
+
+.txt-rewards {
+  text-align: center;
+  padding: 50px;
+  background: #1e3932;
+  color: white;
+}
+.txt-rewards h1 {
+  margin-bottom: 40px;
+}
+.txt-rewards .btn {
+  padding: 9px 20px 7px 20px;
+  border: 2px solid white;
+  border-radius: 50px;
+  color: white;
+}
+.txt-rewards .btn:hover {
+  background-color: hsla(0deg, 0%, 100%, 0.12);
+}
+
+.img,
+.img img,
+.txt {
+  width: 720px;
+  height: 625px;
+}
+
+.txt {
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.txt h1 {
+  margin-bottom: 60px;
+  font-size: 3rem;
+}
+.txt p {
+  margin-bottom: 60px;
+  font-size: 1.5rem;
+  font-family: helvetica;
+  font-weight: 500;
+}
+.txt .btn {
+  padding: 9px 20px 7px 20px;
+  border-radius: 50px;
+  width: fit-content;
+  align-self: center;
+}
+.txt .btn:hover {
+  background-color: hsla(0deg, 0%, 100%, 0.12);
+}
+
+.txt-black {
+  color: black;
+}
+
+.txt-white {
+  color: white;
+}
+
+.bg-pink {
+  background: #fa91aa;
+}
+
+.bg-red {
+  background: #f06464;
+}
+
+.bg-orange {
+  background: #FAAA5A;
+}
+
+.bg-green {
+  background: #9BF5B4;
+}
+
+.btn-black {
+  color: black;
+  border: 2px solid black;
+}
+
+.btn-white {
+  color: white;
+  border: 2px solid white;
+}
+
+.notes {
+  height: 250px;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  padding: 60px;
+}
+.notes p:first-child {
+  padding-bottom: 40px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 30px;
+  align-items: baseline;
+}
+
+.column {
+  margin-right: 30px;
+  width: 190px;
+}
+.column h2 {
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+.column a {
+  color: grey;
+}
+.column li {
+  padding-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */
